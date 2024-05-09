@@ -1,26 +1,26 @@
 function App() {
-  const myTag = <h1>hello</h1>;
-  const vall1 = "흥민";
-  const vall2 = 3.14;
-  const vall3 = 456;
-  const vall4 = true;
-  const vall5 = false;
-  const vall6 = [2, 3];
-  const vall7 = { age: 3, name: "이강인" };
+  const v1 = 5;
+  const v2 = 7;
+  function someAction() {
+    return "흥민";
+  }
+  function someAction2(p) {
+    return p * p;
+  }
+
   return (
     <>
       <p>
-        {vall1}선수는 연봉이 {vall3} 억원이다.
+        {2} + {3} = {2 + 3}
       </p>
-      <div>{myTag}</div>
-      <div>{vall1}</div>
-      <div>{vall2}</div>
-      <div>{vall3}</div>
-      <div>{vall4}</div>
-      <div>{vall5}</div>
-      <div>{vall6}</div>
-      <div>{vall7.age}</div>
-      <div>{vall7.name}</div>
+      <p>
+        {v1} + {v2} = {v1 + v2}
+      </p>
+      <p>
+        {v1} - {v2} = {v1 - v2}
+      </p>
+      <p>{someAction()}</p>
+      <p>{someAction2(5)}</p>
     </>
   );
 }
