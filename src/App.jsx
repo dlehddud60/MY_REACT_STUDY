@@ -9,6 +9,9 @@ function App() {
   const vall7 = { age: 3, name: "이강인" };
   return (
     <>
+      <p>
+        {vall1}선수는 연봉이 {vall3} 억원이다.
+      </p>
       <div>{myTag}</div>
       <div>{vall1}</div>
       <div>{vall2}</div>
