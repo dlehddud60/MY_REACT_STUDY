@@ -1,11 +1,11 @@
 function App() {
-  return (
-    <>
-      <div>
-        <h1>hello react</h1>
-      </div>
-    </>
-  );
+  const a = 1;
+  if (a) {
+    console.log("a는 참이다.");
+  } else {
+    console.log("a는 거짓이다.");
+  }
+  return;
 }
 
 export default App;
