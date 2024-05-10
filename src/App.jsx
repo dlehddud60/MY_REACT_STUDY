@@ -1,11 +1,7 @@
-function App() {
-  const a = 1;
-  if (a) {
-    console.log("a는 참이다.");
-  } else {
-    console.log("a는 거짓이다.");
-  }
-  return;
+import React from "react";
+
+function App(props) {
+  return <div></div>;
 }
 
 export default App;
